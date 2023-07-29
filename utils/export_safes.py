@@ -10,7 +10,7 @@ ETH_RPC_URL = os.environ['ETH_RPC_URL']
 web3 = Web3(HTTPProvider(endpoint_uri=ETH_RPC_URL,
                          request_kwargs={"timeout": 10}))
 
-geb = GfDeployment.from_node(web3, 'rai')
+geb = GfDeployment.from_node(web3, 'hai')
 safe_owner = None
 
 safes = []

@@ -77,7 +77,7 @@ class GfDeployment:
 
     NETWORKS = {
         "1": "mainnet",
-        "42": "kovan"
+        "420": "opgoerli"
     }
 
     class Config:
